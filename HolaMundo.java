@@ -46,7 +46,7 @@ public class HolaMundo {
             System.out.println("m retorna false");
         }
         
-        */
+        
         System.out.println("###################### Switch #####################");
         int dia = 8;
         switch (dia) {
@@ -121,7 +121,28 @@ public class HolaMundo {
             int j = miArreglo[i];
             System.out.println("miArreglo["+i+"]="+j);
         }
-    }
+        */
+        KeyboardInput in = new KeyboardInput();
+      /*  for (int i = 0; i < 10; i++) {
+            System.out.println("Escriba un dígito ");
+            int n = in.readInteger();
+            if (n == 0){
+                System.out.println("Division entre cero ");
+                continue;
+            }
+            System.out.println("100/" + n + " = " + 100.0/n);
+        }
+    }*/
+        while (true) {
+            System.out.println("Escriba un digito: ");
+            int n = in.readInteger();
+            if (n == 5){
+                System.out.println("Escribio un 5. Termina");
+                break;
+            }
+        }
+            
+        }
 
     private static boolean m(int x, int y) {
         return x<y;
